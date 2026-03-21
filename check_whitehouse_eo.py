@@ -235,7 +235,7 @@ MODEL = "gpt-4.1-mini"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PROTON_SMTP_USERNAME = os.getenv("PROTON_SMTP_USERNAME")  # e.g. matthew@fetaverse.net
 PROTON_SMTP_TOKEN = os.getenv("PROTON_SMTP_TOKEN")        # Proton SMTP token
-TO_EMAIL = "mtushman@gmail.com"
+TO_EMAIL = os.getenv("TO_EMAIL")
 
 WHITE_HOUSE_INDEX_URL = "https://www.whitehouse.gov/presidential-actions/executive-orders/"
 STATE_FILE = Path("agent_state.json")
