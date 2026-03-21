@@ -1,0 +1,15 @@
+# old local agent state
+seen_executive_orders.json
+
+# python cache
+__pycache__/
+*.pyc
+
+# environment files
+.env
+
+# notebook artifacts
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
