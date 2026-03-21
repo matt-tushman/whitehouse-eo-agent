@@ -29,6 +29,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           PROTON_SMTP_USERNAME: ${{ secrets.PROTON_SMTP_USERNAME }}
           PROTON_SMTP_TOKEN: ${{ secrets.PROTON_SMTP_TOKEN }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: python check_whitehouse_eo.py
 
       - name: Commit updated state
