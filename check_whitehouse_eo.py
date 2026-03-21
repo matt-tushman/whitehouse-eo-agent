@@ -101,7 +101,7 @@ PROTON_SMTP_TOKEN
 Example shell usage:
 
     export OPENAI_API_KEY="..."
-    export PROTON_SMTP_USERNAME="matthew@fetaverse.net"
+    export PROTON_SMTP_USERNAME="you@example.com"
     export PROTON_SMTP_TOKEN="..."
 
 Notebook Usage
@@ -113,7 +113,7 @@ use a separate setup cell such as:
     from getpass import getpass
 
     os.environ["OPENAI_API_KEY"] = getpass("OpenAI API key: ")
-    os.environ["PROTON_SMTP_USERNAME"] = "matthew@fetaverse.net"
+    os.environ["PROTON_SMTP_USERNAME"] = "you@example.com"
     os.environ["PROTON_SMTP_TOKEN"] = getpass("Proton SMTP token: ")
 
 This keeps secrets out of the script itself and avoids displaying them in cell
@@ -233,7 +233,7 @@ AGENT_NAME = "whitehouse_executive_order_monitor"
 MODEL = "gpt-4.1-mini"
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PROTON_SMTP_USERNAME = os.getenv("PROTON_SMTP_USERNAME")  # e.g. matthew@fetaverse.net
+PROTON_SMTP_USERNAME = os.getenv("PROTON_SMTP_USERNAME")  # e.g. you@example.com
 PROTON_SMTP_TOKEN = os.getenv("PROTON_SMTP_TOKEN")        # Proton SMTP token
 TO_EMAIL = os.getenv("TO_EMAIL")
 
