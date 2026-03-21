@@ -155,12 +155,13 @@ Prevents committing local artifacts or temporary files.
 
 # Environment Variables
 
-The agent requires three environment variables.
+The agent requires four environment variables.
 
 ```
 OPENAI_API_KEY
 PROTON_SMTP_USERNAME
 PROTON_SMTP_TOKEN
+TO_EMAIL
 ```
 
 These should **never be stored in the repository**.
