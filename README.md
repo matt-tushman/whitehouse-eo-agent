@@ -283,4 +283,4 @@ The same architecture can be extended to monitor other sources such as:
 
 # License
 
-No license specified. This repository is currently public.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
